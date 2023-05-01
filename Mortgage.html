@@ -36,7 +36,48 @@
         </header>
 
 
-<h1>oooooo</h1>
+
+
+<div>
+  <div class="container border">
+    <div class="row">
+      <div class="col">
+        <h2>Mortgage Calculator</h2>
+        <form>
+          <div class="mb-3">
+            <label for="loanAmount" class="form-label">Loan Amount</label>
+            <input type="number" class="form-control" id="loanAmount">
+          </div>
+          <div class="mb-3">
+            <label for="interestRate" class="form-label">Interest Rate</label>
+            <input type="number" class="form-control" id="interestRate">
+          </div>
+          <div class="mb-3">
+            <label for="loanTerm" class="form-label">Years</label>
+            <input type="number" class="form-control" id="loanTerm">
+          </div>
+          <div class="mb-3">
+            <fieldset disabled>
+              <label for="monthlyPayment" class="form-label">Monthly Payment</label>
+              <input type="text" class="form-control" id="monthlyPayment">
+            </fieldset>
+          </div>
+          <div>
+            <fieldset disabled>
+              <label for="totalInterest" class="form-label">Total Interest</label>
+              <input type="text" class="form-control" id="totalInterest">
+            </fieldset>
+
+          </div>
+          
+          <button id="calculateBtn" type="button" class="btn btn-primary">Calculate</button>
+          <button id="resetBtn" type="reset" class="btn btn-dark">Reset</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
 
