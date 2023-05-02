@@ -13,8 +13,7 @@
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="Index.html"><img src="Images/CindBank-1 (2).png" width="130px"
-            height="60px"></a>
+          <a class="navbar-brand" href="Index.html"><img src="Images/CindBank1.png" alt="CindBank logo" width="130"height="60"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,11 +34,54 @@
       </nav>
     </header>
 
-<h1>hello</h1>
+    <br>
+    <br>
 
-<div>
+  <div>
+    <div class="container border">
+      <div class="row">
+        <div class="col">
+          <h2>CD Calculator</h2>
+          <form>
+            <div class="mb-4">
+              <label for="depositAmount" class="form-label">Deposit Amount</label>
+              <input type="number" class="form-control" id="depositAmount">
+            </div>
+            <div class="mb-3">
+              <label for="lengthTerm" class="form-label">CD Term length</label>
+              <input type="number" class="form-control" id="lengthTerm">
+            </div>
+          
+            <br>
+            <br>
+            <div class="mb-3">
+                <label for="annualRate" class="form-label">APY (%) (Annual Percentage Yield)</label>
+                <input type="text" class="form-control" id="annualRate">
+            </div>
+            
 
 
+            <div class="mb-3">
+              <fieldset disabled>
+                <label for="futureValue" class="form-label">Future Value</label>
+                <input type="text" class="form-control" id="futureValue" >
+              </fieldset>
+            </div>
+            <div class="mb-3">
+              <fieldset disabled>
+                <label for="totalInterest" class="form-label">Total Interest Earned</label>
+                <input type="text" class="form-control" id="totalInterest">
+              </fieldset>
+            </div>
+            <button id="calculateBtn" type="button" class="btn btn-primary">Calculate</button>
+            <button id="resetBtn" type="reset" class="btn btn-dark">Reset</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </div>
 
   
 </div>

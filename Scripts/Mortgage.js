@@ -55,5 +55,5 @@ function onResetBtnClicked() {
     interestRateInput.value = "";
     loanTermInput.value = "";
     monthlyPaymentOutput.value = "";
-    totalInterestOutput.textContent = "";
+    totalInterestOutput.value = "";
   }
